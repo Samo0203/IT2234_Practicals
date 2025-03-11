@@ -26,7 +26,7 @@ for(var i=10; i>=1; i--)
 }
 
 
-//Q4 - Reverse the numbers in left and right 4321-5-9876
+//Q4 - Print the numbers in left and right 4321-5-9876
 console.log("Print the numbers in left to right 4321-5-9876")
 
 var i = 9
