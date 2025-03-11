@@ -14,4 +14,5 @@ This repository contains the practicals of Web Services and Server Technologies 
 
 4. Forloop.js -> Output
 
-![forloop](https://github.com/user-attachments/assets/75c228da-b5ad-49a7-8fd4-5eb1521e35a4)
+
+![forloop](https://github.com/user-attachments/assets/82e68887-dcdf-4b70-887f-a6e454add16c)
