@@ -1,6 +1,6 @@
 console.log("Mathematical Operations")
 
-//Besic Mathematical Operatoins
+//Basic Mathematical Operations
 
 let num1 = 10;
 let num2 = 5;
