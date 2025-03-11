@@ -11,7 +11,7 @@ console.log("Print only odd numbers:");
 
 for(var j=1; j<=10; j++)
 {
-	if(j % 2 == 0)
+	if(j % 2 == 1)
 	{
 		console.log(j);
 	}
