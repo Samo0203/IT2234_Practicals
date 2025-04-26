@@ -133,9 +133,63 @@ db.students.insertMany([
 ```
 ![21](https://github.com/user-attachments/assets/9fc4a5cb-f008-4645-bab2-e15db853d538)![21_1](https://github.com/user-attachments/assets/a5bc11cf-0b54-445f-9b13-c29e69636d75)
 
-## 🔎 Finding Students
+## 💻 Display Students
 
 ### Display Name and Age With ID
-```javascript
-db.students.find({}, {name:1, age:1})
-```
+{name:1, age:1}
+![22](https://github.com/user-attachments/assets/f91fbb8e-54ab-4d79-8777-79a71c0fe3f2)
+
+### Display Name and Age Without ID
+{name:1, age:1, _id:0}
+![23](https://github.com/user-attachments/assets/43fd53df-c085-48da-b3d8-8f4d0454b888)
+
+- Click "Reset" to clear the filters.
+![24](https://github.com/user-attachments/assets/9d7e2e82-7803-4e5b-ba86-e4cb9e806e57)
+
+### List View
+![28](https://github.com/user-attachments/assets/916d8b2b-d384-45c6-b823-814d18cfcf7a)
+
+### Table View
+![28_2](https://github.com/user-attachments/assets/4b063996-d655-4c15-ac59-d2c014cc3646)
+
+## 🔎 Find Students
+
+### Find Student using Registration Number
+{regno:"2021IT004"}
+![26](https://github.com/user-attachments/assets/bd60393c-3cbd-4c46-b8f9-bb745fd73674)
+
+### Find Students using gender
+{gender:"female"}
+![27](https://github.com/user-attachments/assets/e93ce825-eddf-4dc5-b02f-c1381b2a225c)
+
+db.students.find({"gender":"female"})
+![29](https://github.com/user-attachments/assets/e7bde783-e8f1-4498-80c3-786460245d6c)
+
+### Find 1st female student
+db.students.findOne({"gender":"female"})
+![30](https://github.com/user-attachments/assets/c292f00d-0876-4c98-a730-740a216b82b0)
+
+### Find students whose age is greater than 25
+{age:{$gt:25}}
+![31](https://github.com/user-attachments/assets/0d080d9c-0edc-467d-8074-493193aa4a4d)
+
+db.students.find({"age":{$gt:25}})
+![31_3](https://github.com/user-attachments/assets/a0a7ba36-88f0-40ac-bdba-b578b4b7a89b)
+
+### Find students whose age is less than 25
+{age:{$lt:25}}
+![32](https://github.com/user-attachments/assets/9ab69f40-c00d-4d96-8b39-595c10944c02)
+
+### Find students whose age is equal to 25
+{age:{$eq:25}}
+![33](https://github.com/user-attachments/assets/14688075-cced-45d6-a90c-86db6543f0b9)
+
+### Find students whose have skills on MongoDb
+{skills:"MongoDb"}
+![34](https://github.com/user-attachments/assets/8e6d6b43-1f12-4af8-aca8-19e5f873aa65)
+
+{skills:{$in:["MongoDb"]}}
+![34_2](https://github.com/user-attachments/assets/eb39dbb3-a48f-49ad-958f-afd922835265)
+
+
+
