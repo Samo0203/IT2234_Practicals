@@ -171,10 +171,13 @@ db.students.find({"gender":"female"})
 
 ### Find 1st female student
 db.students.findOne({"gender":"female"})
+
 ![30](https://github.com/user-attachments/assets/c292f00d-0876-4c98-a730-740a216b82b0)
 
 ### Find students whose age is greater than 25
+
 {age:{$gt:25}}
+
 ![31](https://github.com/user-attachments/assets/0d080d9c-0edc-467d-8074-493193aa4a4d)
 
 db.students.find({"age":{$gt:25}})
@@ -182,6 +185,7 @@ db.students.find({"age":{$gt:25}})
 
 ### Find students whose age is less than 25
 {age:{$lt:25}}
+
 ![32](https://github.com/user-attachments/assets/9ab69f40-c00d-4d96-8b39-595c10944c02)
 
 ### Find students whose age is equal to 25
@@ -193,6 +197,7 @@ db.students.find({"age":{$gt:25}})
 ![34](https://github.com/user-attachments/assets/8e6d6b43-1f12-4af8-aca8-19e5f873aa65)
 
 {skills:{$in:["MongoDb"]}}
+
 ![34_2](https://github.com/user-attachments/assets/eb39dbb3-a48f-49ad-958f-afd922835265)
 
 
