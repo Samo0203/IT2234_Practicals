@@ -193,7 +193,7 @@ db.students.find({"age":{$gt:25}})
 {age:{$eq:25}}
 ![33](https://github.com/user-attachments/assets/14688075-cced-45d6-a90c-86db6543f0b9)
 
-### Find students whose have skills on MongoDb
+### Find students who have skills in MongoDb
 {skills:"MongoDb"}
 ![34](https://github.com/user-attachments/assets/8e6d6b43-1f12-4af8-aca8-19e5f873aa65)
 
@@ -201,5 +201,41 @@ db.students.find({"age":{$gt:25}})
 
 ![34_2](https://github.com/user-attachments/assets/eb39dbb3-a48f-49ad-958f-afd922835265)
 
+### Find students who have skills in C or Java
+{skills:{$in:["C", "Java"]}}
 
+![35](https://github.com/user-attachments/assets/490f5968-f416-4ec8-895f-e82d2f4d41cb)
+
+### Find students who don't have skills in MongoDb
+{skills:{ $nin:["MongoDb"]}}
+![36](https://github.com/user-attachments/assets/097d9d4e-197e-4cd7-a5e7-c26f5e2e5ff1)
+
+## 🛠️ Sort Students
+### Sort students by gpa (Descending order)
+{ gpa: -1 }
+![37](https://github.com/user-attachments/assets/916cc93c-f410-492f-8012-aba41cf920a8)
+![37_2](https://github.com/user-attachments/assets/923d1b69-36fc-4da0-8880-b285357b96f4)
+![37_3](https://github.com/user-attachments/assets/3af958f1-446b-4f38-825c-bb8dc1497013)
+
+### Sort students by gpa and name
+{ name: 1, age: 1 }
+![38](https://github.com/user-attachments/assets/0ed7312b-1104-4af9-b835-98b22b7aeeea)
+![38_2](https://github.com/user-attachments/assets/d2aea0b2-ff52-43b9-99f4-188baff6467a)
+![38_3](https://github.com/user-attachments/assets/547032ba-c240-43f2-bcba-66ad4e6ac110)
+
+### Sort students by gpa (Ascending order) via shell
+db.students.find().sort({'gpa':1})
+![39](https://github.com/user-attachments/assets/6e0ff16e-5c5f-49f2-b660-406e0245025d)
+![39_2](https://github.com/user-attachments/assets/015cb61c-ad31-47cc-9e73-8ee447ff3991)
+![39_3](https://github.com/user-attachments/assets/31416784-95f5-403c-8a54-0aa44ab65aed)
+
+### Sort students by gpa (Descending order) via shell
+db.students.find().sort({'gpa':-1})
+![39_4](https://github.com/user-attachments/assets/d7b03123-9181-43ad-a176-7b5984822bee)
+![39_5](https://github.com/user-attachments/assets/480bbd33-5c25-43d2-b1de-a769b0918db4)
+![39_6](https://github.com/user-attachments/assets/2869d9e7-2b8f-4836-8052-3ffb98b16bdf)
+
+### Find IT male students sort by gpa (Descending order) via shell
+db.students.find({'degree':'IT','gender':'male'}).sort({'gpa':1})
+![40](https://github.com/user-attachments/assets/2b2b1d54-c7ab-4fcd-b041-107d5da6e9ef)
 
