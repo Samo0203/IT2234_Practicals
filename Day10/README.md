@@ -243,3 +243,12 @@ db.students.find().sort({'gpa':-1})
 db.students.find({'degree':'IT','gender':'male'}).sort({'gpa':1})
 ![40](https://github.com/user-attachments/assets/2b2b1d54-c7ab-4fcd-b041-107d5da6e9ef)
 
+## ✏️ Limit Students
+### Display students' regno and name. Limit 3
+![41](https://github.com/user-attachments/assets/52a6f6e2-c4e9-477f-9509-f540887b787b)
+
+## ✏️ Find Students with Limit & Skip
+### Skip 1st student and find next 4 students
+![42](https://github.com/user-attachments/assets/ef2dc43f-346f-4a23-a2c0-333d55ce238a)
+
+
