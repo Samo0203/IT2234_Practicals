@@ -166,6 +166,7 @@ db.students.insertMany([
 ![27](https://github.com/user-attachments/assets/e93ce825-eddf-4dc5-b02f-c1381b2a225c)
 
 db.students.find({"gender":"female"})
+
 ![29](https://github.com/user-attachments/assets/e7bde783-e8f1-4498-80c3-786460245d6c)
 
 ### Find 1st female student
