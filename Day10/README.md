@@ -181,6 +181,7 @@ db.students.findOne({"gender":"female"})
 ![31](https://github.com/user-attachments/assets/0d080d9c-0edc-467d-8074-493193aa4a4d)
 
 db.students.find({"age":{$gt:25}})
+
 ![31_3](https://github.com/user-attachments/assets/a0a7ba36-88f0-40ac-bdba-b578b4b7a89b)
 
 ### Find students whose age is less than 25
