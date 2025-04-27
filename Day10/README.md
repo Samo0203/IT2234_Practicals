@@ -245,7 +245,7 @@ db.students.find().sort({'gpa':-1})
 ![39_5](https://github.com/user-attachments/assets/480bbd33-5c25-43d2-b1de-a769b0918db4)
 ![39_6](https://github.com/user-attachments/assets/2869d9e7-2b8f-4836-8052-3ffb98b16bdf)
 
-### Find IT male students sort by gpa (Descending order) via shell
+### Find IT male students sort by gpa (Ascending order) via shell
 db.students.find({'degree':'IT','gender':'male'}).sort({'gpa':1})
 ![40](https://github.com/user-attachments/assets/2b2b1d54-c7ab-4fcd-b041-107d5da6e9ef)
 
