@@ -69,7 +69,9 @@ cls
 - Click "Add Data" → "Insert Document".
 ![7](https://github.com/user-attachments/assets/eb7db30c-c9c1-45b9-b23e-46ac54f693db)
 
+
 - Enter the document details.
+
 ![9](https://github.com/user-attachments/assets/8f7cf308-4180-4a9d-b7a2-dcafe49be774)
 
 - Click "Format" to format the document properly.
