@@ -224,13 +224,17 @@ db.students.find({"age":{$gt:25}})
 ![38_3](https://github.com/user-attachments/assets/547032ba-c240-43f2-bcba-66ad4e6ac110)
 
 ### Sort students by gpa (Ascending order) via shell
+
 db.students.find().sort({'gpa':1})
+
 ![39](https://github.com/user-attachments/assets/6e0ff16e-5c5f-49f2-b660-406e0245025d)
 ![39_2](https://github.com/user-attachments/assets/015cb61c-ad31-47cc-9e73-8ee447ff3991)
 ![39_3](https://github.com/user-attachments/assets/31416784-95f5-403c-8a54-0aa44ab65aed)
 
 ### Sort students by gpa (Descending order) via shell
+
 db.students.find().sort({'gpa':-1})
+
 ![39_4](https://github.com/user-attachments/assets/d7b03123-9181-43ad-a176-7b5984822bee)
 ![39_5](https://github.com/user-attachments/assets/480bbd33-5c25-43d2-b1de-a769b0918db4)
 ![39_6](https://github.com/user-attachments/assets/2869d9e7-2b8f-4836-8052-3ffb98b16bdf)
