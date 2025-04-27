@@ -76,6 +76,7 @@ cls
 
 - Click "Format" to format the document properly.
 - Click "Insert" to save it.
+
   ![10](https://github.com/user-attachments/assets/882e3b4e-9866-4d65-8a9f-4df5dc69e193)
 
 - Now the data will be inserted.
