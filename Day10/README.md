@@ -6,14 +6,20 @@ This tutorial covers how to connect, create databases, insert and manipulate dat
 
 ## 📋 Table of Contents
 
-1. [Adding a New Connection](#adding-a-new-connection)
-2. [Creating a Database](#creating-a-database)
-4. [Using MongoDB Shell](#using-mongodb-shell)
-5. [Basic Shell Commands](#basic-shell-commands)
-6. [Inserting Data via UI](#inserting-data-via-ui)
-7. [Editing and Cloning Documents](#editing-and-cloning-documents)
-8. [Inserting Data via Shell](#inserting-data-via-shell)
-9. [Finding Students](#finding-students)
+- [Adding a New Connection](#-adding-a-new-connection)
+- [Creating a Database](#-creating-a-database)
+- [Using MongoDB Shell](#-using-mongodb-shell)
+- [Basic Shell Commands](#-basic-shell-commands)
+- [Inserting Data via UI](#-inserting-data-via-ui)
+- [Clone a Document](#-clone-a-document)
+- [Editing Documents](#-editing-documents)
+- [Inserting Data via MongoDB Shell](#-inserting-data-via-mongodb-shell)
+- [Display Students](#-display-students)
+- [Find Students](#-find-students)
+- [Sort Students](#-sort-students)
+- [Limit Students](#-limit-students)
+- [Find Students with Limit & Skip](#-find-students-with-limit--skip)
+
 
 ---
 
@@ -210,7 +216,7 @@ db.students.find({"age":{$gt:25}})
 {skills:{ $nin:["MongoDb"]}}
 ![36](https://github.com/user-attachments/assets/097d9d4e-197e-4cd7-a5e7-c26f5e2e5ff1)
 
-## 🛠️ Sort Students
+## 🔃 Sort Students
 ### Sort students by gpa (Descending order)
 { gpa: -1 }
 ![37](https://github.com/user-attachments/assets/916cc93c-f410-492f-8012-aba41cf920a8)
@@ -243,11 +249,11 @@ db.students.find().sort({'gpa':-1})
 db.students.find({'degree':'IT','gender':'male'}).sort({'gpa':1})
 ![40](https://github.com/user-attachments/assets/2b2b1d54-c7ab-4fcd-b041-107d5da6e9ef)
 
-## ✏️ Limit Students
+## 🎯 Limit Students
 ### Display students' regno and name. Limit 3
 ![41](https://github.com/user-attachments/assets/52a6f6e2-c4e9-477f-9509-f540887b787b)
 
-## ✏️ Find Students with Limit & Skip
+## ⏭️  Find Students with Limit & Skip
 ### Skip 1st student and find next 4 students
 ![42](https://github.com/user-attachments/assets/ef2dc43f-346f-4a23-a2c0-333d55ce238a)
 
