@@ -53,4 +53,4 @@
 
     ### Display student using regno
 - db.students.findOne({regno:'2021IT001'})
-     ![13.png](./Output/10.png)
+  
