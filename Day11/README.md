@@ -1,4 +1,5 @@
-| Practical | ReadMe File |
-|-----------|--------|
-|[Practical](./Practical)|![Practial01_ReadMe]([./Practical/README.md]
-|[exercise](./exercise)|![exercise01_ReadMe](./exercise/README.md)|
+| Folder | ReadMe File |
+|--------|-------------|
+| [Practical](./Practical) | [Practical ReadMe](./Practical/README.md) |
+| [Exercise](./exercise)   | [Exercise ReadMe](./exercise/README.md)   |
+
