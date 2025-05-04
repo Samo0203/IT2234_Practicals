@@ -49,8 +49,8 @@
     ![12.png](./Output/9_3.png)
 
     ## ⚙️  Add new skill to student using regno
-    - db.students.updateOne({regno:'2021IT001'},{$push:{skills:'PHP'}})
+  - db.students.updateOne({regno:'2021IT001'},{$push:{skills:'PHP'}})
 
     ### Display student using regno
-    - db.students.findOne({regno:'2021IT001'})
-      ![13.png](./Output/10.png)
+  - db.students.findOne({regno:'2021IT001'})
+     ![13.png](./Output/10.png)
