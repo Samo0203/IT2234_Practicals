@@ -2,6 +2,7 @@
 
 ## 🧩 Delete DataBase
 - db.dropDatabase()
+  
   ![1.png](./Output/2.png)
    ![2.png](./Output/2_2.png)
 
@@ -19,6 +20,7 @@
 - db.degree.find().projection(['name','duration'])
   ![6.png](./Output/5_2.png)
 - db.degree.find({},{name:1,_id:0}).pretty()
+  
    ![7.png](./Output/6.png)
 
 ## 🔥 Delete the degrees
