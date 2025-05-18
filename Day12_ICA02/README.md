@@ -4,6 +4,6 @@
 |2. Show both collections in table view|![2](https://github.com/user-attachments/assets/951f1e68-1326-48b0-9bd0-dbec383aaad6)![2_2](https://github.com/user-attachments/assets/405eb9bd-1bba-4f17-9e28-648672d8500d)|
 |3. Find the female students and only display their name, age, and gender |![3](https://github.com/user-attachments/assets/024a837c-5b4b-4074-bbfb-9c8615a18f38)|
 |4. Find the students who are younger than 22 and enrolled after 2020 |![4_1](https://github.com/user-attachments/assets/8d289b27-0b61-466f-bab7-0fabe4e61949)![4_2](https://github.com/user-attachments/assets/a9b0687a-e57e-4d18-94ce-91f53898ab3a)|
-|5. Find all grades for "Alice Johnson" |![5](https://github.com/user-attachments/assets/5ff3ab87-ab43-46c7-b499-b28875f499f7)|
+|5. Find all grades for "Alice Johnson" |![5_1](https://github.com/user-attachments/assets/15a81d01-07cf-426a-b90e-642075a09f26)![5_2](https://github.com/user-attachments/assets/62cffff4-ea4c-4a44-977f-44033c16f936)|
 |6. Find how many students followed the subject “Mathematics” |![6](https://github.com/user-attachments/assets/27716764-cf9e-4365-aec4-b07470e26751)|
-|7. Find all students with grades in the term "Fall 2022" |![7_1](https://github.com/user-attachments/assets/0a558f57-2300-4a4c-bc2d-7d7cdcfdac02)![7_2](https://github.com/user-attachments/assets/78a67ee4-b183-4239-8e9f-91100b9a2a99)|
+|7. Find all students with grades in the term "Fall 2022" |![7_n](https://github.com/user-attachments/assets/55863e7a-13aa-47a9-88fe-48c31252ad79)![7_n1](https://github.com/user-attachments/assets/245ad231-3908-4e25-90c1-2380b3fcb2d2)![7_n2](https://github.com/user-attachments/assets/4e2dac5d-5800-49b8-a5e6-d2bff71daf87)|
