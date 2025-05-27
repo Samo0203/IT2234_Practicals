@@ -25,12 +25,21 @@ Connecting each collections (Make relationships)
 
 
 ### GET methods
-Get Courses
-![9](https://github.com/user-attachments/assets/7326f7f5-972f-40cf-a820-49e4ef6ca522)
+Get all departments
+![all departments](https://github.com/user-attachments/assets/b29168f9-7079-4ca7-80c4-995ffc03ab60)
 
-Get a Course by Id
-![10](https://github.com/user-attachments/assets/a670deff-fe01-485c-a560-5ee9d88fc718)
+Get department by ID
+![deptbyID](https://github.com/user-attachments/assets/9d5c7328-fc75-46b1-8974-b9045b8580df)
 
-Get a Course by course code
-![11](https://github.com/user-attachments/assets/e4f20a84-c954-47b3-8c83-90add5812656)
+Get employees in a department
+![1](https://github.com/user-attachments/assets/118e6ac9-0b83-4466-a870-aaa515ebc2fc)
+
+Get employees in a department with populate
+![2_with populate](https://github.com/user-attachments/assets/fe0642e7-7ed7-4b24-add1-113849d04ccd)
+
+Get number of employees in a specific department
+![deptcount](https://github.com/user-attachments/assets/43e458fe-d2f4-465a-b6a0-458069f8a613)
+
+Show employee count for each department
+![countofdept](https://github.com/user-attachments/assets/b6dafe81-cf56-4cef-8bb8-f2d59bdd7554)
 
