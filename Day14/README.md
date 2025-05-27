@@ -7,6 +7,11 @@ Creating collections and adding data
 Add data to courses
 ![post_adddata](https://github.com/user-attachments/assets/d8c11611-003d-4046-b5df-dee1bcd8b890)
 
+### PUT method
+Update data of course
+![put](https://github.com/user-attachments/assets/3ab93095-43b8-40e8-864a-6724086802ef)
+
+
 ### DELETE method
 Delete course data by objectId
 ![delete](https://github.com/user-attachments/assets/ad523c7e-2194-4d7f-9b1b-4a44d780849a)
