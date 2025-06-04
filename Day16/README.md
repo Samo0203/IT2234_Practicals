@@ -43,3 +43,5 @@ Get number of employees in a specific department
 Show employee count for each department
 ![countofdept](https://github.com/user-attachments/assets/b6dafe81-cf56-4cef-8bb8-f2d59bdd7554)
 
+Show project count for each employee
+![2_3](https://github.com/user-attachments/assets/a0dca566-b244-4cb8-aaa9-df58951bfb04)
