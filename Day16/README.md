@@ -1,4 +1,4 @@
-# EmployeeApp 📚
+# EmployeeApp 
 
 ### Installation
 
