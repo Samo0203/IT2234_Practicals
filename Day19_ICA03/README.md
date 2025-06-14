@@ -8,12 +8,13 @@ npm start
 ![1](https://github.com/user-attachments/assets/8c3cb113-8379-4d03-9fa8-fa4acee44438)
 
 Creating database and Insert data into collections
-Books:-
+<be>Books:-
 ![1_book](https://github.com/user-attachments/assets/a335e706-2a7d-4db6-9243-2acbb4afaa1a)
 Borrow:-
 ![1_bor](https://github.com/user-attachments/assets/c51b8d0b-113f-4974-acc9-d73266448ed4)
 Students:-
-![1_stu](https://github.com/user-attachments/assets/e5d59ac9-a572-411c-9198-2508e6759b5e)
+![1_stu](https://github.com/user-attachments/assets/08e69582-162e-466c-b550-5d0abc83bb61)
+
 
 ### Questions
 Map the models to the database and insert the given data, then display the collections in table view. 
