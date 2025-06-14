@@ -13,7 +13,7 @@ Creating database and Insert data into collections
 Borrow:-
 ![1_bor](https://github.com/user-attachments/assets/c51b8d0b-113f-4974-acc9-d73266448ed4)
 Students:-
-![1_stu](https://github.com/user-attachments/assets/08e69582-162e-466c-b550-5d0abc83bb61)
+![1_stu](https://github.com/user-attachments/assets/f89937b1-21dc-4d36-bfd7-00e51d2079f8)
 
 
 ### Questions
